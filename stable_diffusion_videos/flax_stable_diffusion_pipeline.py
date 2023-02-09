@@ -68,6 +68,7 @@ class FlaxStableDiffusionWalkPipeline(FlaxDiffusionPipeline):
             Model that extracts features from generated images to be used as inputs for the `safety_checker`.
     """
 
+    
     def __init__(
         self,
         vae: FlaxAutoencoderKL,
